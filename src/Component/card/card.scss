@@ -1,0 +1,96 @@
+.card-container{
+    position: relative;
+   height: 153px;
+    z-index: 1;
+    background-color: #F8F9FA;
+    width: 100%;
+    bottom: 80px;
+    // border: 1px solid red;
+    a{
+        text-decoration: none;
+        font-size: 16px;
+    }
+  .h{
+      display: flex;
+      justify-content: space-around;
+  }
+  .s{
+      position: relative;
+      bottom: 150px;
+  }
+.card1{
+    background-color: white;
+    // width: 60%;
+    .icon{
+    
+      img{
+          width: 250px;
+          height: 250px;
+        margin-top: 25px;
+        margin-left: 15px;
+      }
+    }
+    .card-body{
+        margin-top: 10px;
+        margin-left: 10px;
+        h4{
+            font-size: 30px;
+        }
+    }
+}
+.card2{
+    background-color: white;
+    .left-card{
+        
+        img{
+            width: 355px;
+            height: 250px;
+            margin-top: 10px;
+        }
+    } 
+   
+}
+
+}
+
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+  }
+  img{
+      width: 100%;
+  }
+//   courses style
+.text{
+    color: blue;
+    font-weight: 700;
+}
+.course{
+    background-color: #F8F9FA;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    img{
+        width: 80px;
+        height: 80px;
+        
+        
+    }
+    &:hover{
+        background-color: white;
+        box-shadow: 0 10px 20px 0 rgb(0 0 0 / 10%);
+    }
+}
+// responsive design 
+@media screen and (max-width:480px) {
+   .card-container{
+    display: none;
+   }
+    
+}
+@media screen and (max-width:768px) {
+ .card-container{display: none;}  
+}
